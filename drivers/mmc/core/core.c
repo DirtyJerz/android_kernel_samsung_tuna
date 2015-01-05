@@ -1573,8 +1573,6 @@ int mmc_can_trim(struct mmc_card *card)
 }
 EXPORT_SYMBOL(mmc_can_trim);
 
-<<<<<<< HEAD
-=======
 int mmc_can_discard(struct mmc_card *card)
 {
 	/*
@@ -1595,7 +1593,6 @@ int mmc_can_sanitize(struct mmc_card *card)
 }
 EXPORT_SYMBOL(mmc_can_sanitize);
 
->>>>>>> fd57d76...  mmc: core: new discard feature support at eMMC v4.5
 int mmc_can_secure_erase_trim(struct mmc_card *card)
 {
 	if (card->ext_csd.sec_feature_support & EXT_CSD_SEC_ER_EN)
